@@ -38,3 +38,9 @@ link VARCHAR(512) DEFAULT NULL
 ./hello.py --subject "Decorating" --image_url "http://www.dpmattinsonltd.co.uk/wp-content/uploads/2015/03/Painting-Decorating.jpg" --body "" --link "http://localhost:5000/decorating"
 ./hello.py --subject "Books" --image_url "http://www.faizroyhan.com/wp-content/uploads/2016/07/1-2.jpg" --body "" --link "http://localhost:5000/books"
 ./hello.py --subject "Blog" --image_url "http://zdnet1.cbsistatic.com/hub/i/r/2014/10/03/0396b043-4b1e-11e4-b6a0-d4ae52e95e57/resize/770xauto/f9d090fa24cef3418d609f14b6ef5686/2012-02-09manual-typewriter-0209stock.jpg" --body "" --link "http://localhost:5000/blog"
+
+
+INSERT INTO blog_tbl (subject, body)
+VALUES ("Suculent Designs for Small Spaces.", "glrknehlkrleknhklrnelkhnklerlhnrkel");
+
+mysql -u root -p blog
